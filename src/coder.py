@@ -22,7 +22,7 @@ class TargetCoder:
     
     @staticmethod
     def encode(target: str) -> int:
-        return TargetCoder._TARGET_ENCODER[TargetCoder.map(target)]
+        return TargetCoder._TARGET_ENCODER[target]
     
     @staticmethod
     def decode(target: int) -> str:
@@ -31,3 +31,7 @@ class TargetCoder:
     @staticmethod
     def map(target: str) -> str:
         return TargetCoder._POSITIONS_MAPPER[target]
+    
+    @staticmethod
+    def map_and_encode(target: str) -> int:
+        return TargetCoder.encode(TargetCoder.map(target))
