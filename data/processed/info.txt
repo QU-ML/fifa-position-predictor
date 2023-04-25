@@ -1,0 +1,57 @@
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 143613 entries, 0 to 161582
+Data columns (total 50 columns):
+ #   Column                       Non-Null Count   Dtype  
+---  ------                       --------------   -----  
+ 0   height_cm                    143613 non-null  float64
+ 1   weight_kg                    143613 non-null  float64
+ 2   weak_foot                    143613 non-null  float64
+ 3   skill_moves                  143613 non-null  float64
+ 4   pace                         143613 non-null  float64
+ 5   shooting                     143613 non-null  float64
+ 6   passing                      143613 non-null  float64
+ 7   dribbling                    143613 non-null  float64
+ 8   defending                    143613 non-null  float64
+ 9   physic                       143613 non-null  float64
+ 10  attacking_crossing           143613 non-null  float64
+ 11  attacking_finishing          143613 non-null  float64
+ 12  attacking_heading_accuracy   143613 non-null  float64
+ 13  attacking_short_passing      143613 non-null  float64
+ 14  attacking_volleys            143613 non-null  float64
+ 15  skill_dribbling              143613 non-null  float64
+ 16  skill_curve                  143613 non-null  float64
+ 17  skill_fk_accuracy            143613 non-null  float64
+ 18  skill_long_passing           143613 non-null  float64
+ 19  skill_ball_control           143613 non-null  float64
+ 20  movement_acceleration        143613 non-null  float64
+ 21  movement_sprint_speed        143613 non-null  float64
+ 22  movement_agility             143613 non-null  float64
+ 23  movement_reactions           143613 non-null  float64
+ 24  movement_balance             143613 non-null  float64
+ 25  power_shot_power             143613 non-null  float64
+ 26  power_jumping                143613 non-null  float64
+ 27  power_stamina                143613 non-null  float64
+ 28  power_strength               143613 non-null  float64
+ 29  power_long_shots             143613 non-null  float64
+ 30  mentality_aggression         143613 non-null  float64
+ 31  mentality_interceptions      143613 non-null  float64
+ 32  mentality_positioning        143613 non-null  float64
+ 33  mentality_vision             143613 non-null  float64
+ 34  mentality_penalties          143613 non-null  float64
+ 35  defending_marking_awareness  143613 non-null  float64
+ 36  defending_standing_tackle    143613 non-null  float64
+ 37  defending_sliding_tackle     143613 non-null  float64
+ 38  work_rate_High/High          143613 non-null  uint8  
+ 39  work_rate_High/Low           143613 non-null  uint8  
+ 40  work_rate_High/Medium        143613 non-null  uint8  
+ 41  work_rate_Low/High           143613 non-null  uint8  
+ 42  work_rate_Low/Low            143613 non-null  uint8  
+ 43  work_rate_Low/Medium         143613 non-null  uint8  
+ 44  work_rate_Medium/High        143613 non-null  uint8  
+ 45  work_rate_Medium/Low         143613 non-null  uint8  
+ 46  work_rate_Medium/Medium      143613 non-null  uint8  
+ 47  preferred_foot_Left          143613 non-null  uint8  
+ 48  preferred_foot_Right         143613 non-null  uint8  
+ 49  position                     143613 non-null  int64  
+dtypes: float64(38), int64(1), uint8(11)
+memory usage: 45.3 MB
