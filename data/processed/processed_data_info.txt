@@ -41,17 +41,17 @@ Data columns (total 50 columns):
  35  defending_marking_awareness  143613 non-null  float64
  36  defending_standing_tackle    143613 non-null  float64
  37  defending_sliding_tackle     143613 non-null  float64
- 38  position                     143613 non-null  int64  
- 39  work_rate_High/High          143613 non-null  uint8  
- 40  work_rate_High/Low           143613 non-null  uint8  
- 41  work_rate_High/Medium        143613 non-null  uint8  
- 42  work_rate_Low/High           143613 non-null  uint8  
- 43  work_rate_Low/Low            143613 non-null  uint8  
- 44  work_rate_Low/Medium         143613 non-null  uint8  
- 45  work_rate_Medium/High        143613 non-null  uint8  
- 46  work_rate_Medium/Low         143613 non-null  uint8  
- 47  work_rate_Medium/Medium      143613 non-null  uint8  
- 48  preferred_foot_Left          143613 non-null  uint8  
- 49  preferred_foot_Right         143613 non-null  uint8  
+ 38  work_rate_High/High          143613 non-null  uint8  
+ 39  work_rate_High/Low           143613 non-null  uint8  
+ 40  work_rate_High/Medium        143613 non-null  uint8  
+ 41  work_rate_Low/High           143613 non-null  uint8  
+ 42  work_rate_Low/Low            143613 non-null  uint8  
+ 43  work_rate_Low/Medium         143613 non-null  uint8  
+ 44  work_rate_Medium/High        143613 non-null  uint8  
+ 45  work_rate_Medium/Low         143613 non-null  uint8  
+ 46  work_rate_Medium/Medium      143613 non-null  uint8  
+ 47  preferred_foot_Left          143613 non-null  uint8  
+ 48  preferred_foot_Right         143613 non-null  uint8  
+ 49  position                     143613 non-null  int64  
 dtypes: float64(38), int64(1), uint8(11)
 memory usage: 45.3 MB
