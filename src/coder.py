@@ -31,7 +31,3 @@ class TargetCoder:
     @staticmethod
     def map(target: str) -> str:
         return TargetCoder._POSITIONS_MAPPER[target]
-    
-    @staticmethod
-    def map_and_encode(target: str) -> int:
-        return TargetCoder.encode(TargetCoder.map(target))
