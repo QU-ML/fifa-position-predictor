@@ -1,6 +1,6 @@
 <class 'pandas.core.frame.DataFrame'>
 Int64Index: 143613 entries, 0 to 161582
-Data columns (total 50 columns):
+Data columns (total 56 columns):
  #   Column                       Non-Null Count   Dtype  
 ---  ------                       --------------   -----  
  0   height_cm                    143613 non-null  float64
@@ -52,6 +52,12 @@ Data columns (total 50 columns):
  46  work_rate_Medium/Medium      143613 non-null  uint8  
  47  preferred_foot_Left          143613 non-null  uint8  
  48  preferred_foot_Right         143613 non-null  uint8  
- 49  position                     143613 non-null  int64  
-dtypes: float64(38), int64(1), uint8(11)
-memory usage: 45.3 MB
+ 49  ST                           143613 non-null  int64  
+ 50  LW                           143613 non-null  int64  
+ 51  RW                           143613 non-null  int64  
+ 52  CM                           143613 non-null  int64  
+ 53  RB                           143613 non-null  int64  
+ 54  LB                           143613 non-null  int64  
+ 55  CB                           143613 non-null  int64  
+dtypes: float64(38), int64(7), uint8(11)
+memory usage: 55.9 MB
