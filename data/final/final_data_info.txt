@@ -1,0 +1,34 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 143613 entries, 0 to 143612
+Data columns (total 27 columns):
+ #   Column                       Non-Null Count   Dtype  
+---  ------                       --------------   -----  
+ 0   height_weight                143613 non-null  float64
+ 1   weak_foot                    143613 non-null  float64
+ 2   skill_moves                  143613 non-null  float64
+ 3   pace                         143613 non-null  float64
+ 4   shooting                     143613 non-null  float64
+ 5   passing                      143613 non-null  float64
+ 6   dribbling                    143613 non-null  float64
+ 7   defending                    143613 non-null  float64
+ 8   physic                       143613 non-null  float64
+ 9   attacking_heading_accuracy   143613 non-null  float64
+ 10  skill_curve                  143613 non-null  float64
+ 11  skill_fk_accuracy            143613 non-null  float64
+ 12  movement_agility             143613 non-null  float64
+ 13  movement_balance             143613 non-null  float64
+ 14  power_jumping                143613 non-null  float64
+ 15  mentality_aggression         143613 non-null  float64
+ 16  mentality_penalties          143613 non-null  float64
+ 17  defending_marking_awareness  143613 non-null  float64
+ 18  work_rate_High/Low           143613 non-null  int64  
+ 19  work_rate_High/Medium        143613 non-null  int64  
+ 20  work_rate_Low/High           143613 non-null  int64  
+ 21  work_rate_Low/Medium         143613 non-null  int64  
+ 22  work_rate_Medium/High        143613 non-null  int64  
+ 23  work_rate_Medium/Low         143613 non-null  int64  
+ 24  preferred_foot_Left          143613 non-null  int64  
+ 25  preferred_foot_Right         143613 non-null  int64  
+ 26  position                     143613 non-null  int64  
+dtypes: float64(18), int64(9)
+memory usage: 29.6 MB
