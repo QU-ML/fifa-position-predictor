@@ -1,6 +1,6 @@
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 143613 entries, 0 to 143612
-Data columns (total 6 columns):
+Data columns (total 12 columns):
  #   Column  Non-Null Count   Dtype  
 ---  ------  --------------   -----  
  0   PC1     143613 non-null  float64
@@ -9,5 +9,11 @@ Data columns (total 6 columns):
  3   PC4     143613 non-null  float64
  4   PC5     143613 non-null  float64
  5   PC6     143613 non-null  float64
-dtypes: float64(6)
-memory usage: 6.6 MB
+ 6   PC7     143613 non-null  float64
+ 7   PC8     143613 non-null  float64
+ 8   PC9     143613 non-null  float64
+ 9   PC10    143613 non-null  float64
+ 10  PC11    143613 non-null  float64
+ 11  PC12    143613 non-null  float64
+dtypes: float64(12)
+memory usage: 13.1 MB
